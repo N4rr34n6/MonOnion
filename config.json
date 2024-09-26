@@ -1,0 +1,36 @@
+{
+    "api_id": 123456,
+    "api_hash": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "phone": "+1234567890",
+    "channel_id": -1000000000000,
+    "pages": [
+        {
+            "url": "http://example1.onion/",
+            "previous_links_path": "previous_links.txt",
+            "current_links_path": "current_links.txt",
+            "previous_content_path": "previous_content.txt",
+            "screenshot_path": "screenshot.jpg",
+            "curl_response_path": "curl_response.txt",
+            "status_file_path": "status.txt"
+        },
+        {
+            "url": "http://example1.onion/something.html",
+            "previous_links_path": "previous_links_something.txt",
+            "current_links_path": "current_links_something.txt",
+            "previous_content_path": "previous_content_something.txt",
+            "screenshot_path": "screenshot_something.jpg",
+            "curl_response_path": "curl_response_something.txt",
+            "status_file_path": "status_something.txt"
+        },
+        {
+            "url": "http://example2.onion/",
+            "status_file_path": "status_example2.txt",
+            "status_only": true
+        },
+        {
+            "url": "http://example3.onion/",
+            "status_file_path": "status_example3.txt",
+            "status_only": true
+        }
+    ]
+}
