@@ -1,0 +1,4 @@
+Telethon
+requests
+chardet
+pysocks
